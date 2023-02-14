@@ -2,3 +2,6 @@
 .Rhistory
 .RData
 .Ruserdata
+data-raw/*.txt
+data-raw/*.zip
+data-raw/*.csv
