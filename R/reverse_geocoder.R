@@ -14,7 +14,7 @@
 #' @export
 reverse_geocoder_us_cities_with_population_5000 <- function(df) {
     df <- dplyr::rename(df, latitude = 1, longitude = 2)
-    suppressPackageStartupMessages(require(workflows))
+    suppressPackageStartupMessages(requireNamespace("workflows"))
     us_cities_with_population_5000_fit |>
         predict(df) |>
         dplyr::transmute(geonameid = .pred_class)

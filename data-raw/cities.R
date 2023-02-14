@@ -1,7 +1,7 @@
 library(tidyverse)
 library(tidymodels)
-library(vetiver)
-library(pins)
+
+if (!rlang::is_installed("rreversegeocoder")) remotes::install_github("jrosell/rreversegeocoder")
 library(rreversegeocoder)
 
 cities <- download_cities_with_population_5000() %>%

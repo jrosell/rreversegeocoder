@@ -13,6 +13,7 @@ Imports:
     kknn,
     parsnip,
     readr,
+    recipes,
     workflows
 Depends: 
     R (>= 2.10)
