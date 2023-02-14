@@ -1,0 +1,12 @@
+Package: rreversegeocoder
+Type: Package
+Title: Reverse geocodes in R
+Version: 0.1.0
+Authors@R: c(
+    person("Jordi", "Rosell", , "jroselln@gmail.com", role = c("aut", "cre"),
+           comment = c(ORCID = "0000-0002-4349-1458"))
+Description: Given latitude and longitude, find the nearest 
+    city with more than 500 habitants .
+License: CC BY 4.0
+Encoding: UTF-8
+LazyData: true
