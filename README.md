@@ -10,6 +10,9 @@
 The goal of rreversegeocoder is to, given latitude and longitude, find
 the nearest city in US.
 
+Why? We get new features for feature engineering that can improve the
+peerformance of machine learning models.
+
 ## Installation
 
 You can install the development version of rreversegeocoder from
