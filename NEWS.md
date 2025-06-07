@@ -1,5 +1,7 @@
 # rreversegeocoder (development version)
 
+* Fix README.md
+
 # rreversegeocoder 0.1.1
 
 * Refit of the knn model.

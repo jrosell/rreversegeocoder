@@ -1,28 +1,19 @@
----
-output: github_document
----
 
 <!-- README.md is generated from README.Rmd. Please edit that file -->
-
-```{r, include = FALSE}
-knitr::opts_chunk$set(
-  collapse = TRUE,
-  comment = "#>",
-  fig.path = "man/figures/README-",
-  out.width = "100%"
-)
-```
 
 # rreversegeocoder
 
 <!-- badges: start -->
+
 <!-- badges: end -->
 
-The goal of rreversegeocoder is to, given latitude and longitude, find the nearest city in US.
+The goal of rreversegeocoder is to, given latitude and longitude, find
+the nearest city in US.
 
 ## Installation
 
-You can install the development version of rreversegeocoder from [GitHub](https://github.com/jrosell/rreversegeocoder) with:
+You can install the development version of rreversegeocoder from
+[GitHub](https://github.com/jrosell/rreversegeocoder) with:
 
 ``` r
 pak::pak("jrosell/rreversegeocoder")
@@ -30,8 +21,8 @@ pak::pak("jrosell/rreversegeocoder")
 
 ## Example
 
-This is a basic example which shows you how to get all the geoname information
-from a given latitude and longitude in US:
+This is a basic example which shows you how to get all the geoname
+information from a given latitude and longitude in US:
 
 ``` r
 library(tidyverse)
@@ -52,6 +43,7 @@ output <- input |>
 
 glimpse(output)
 ```
+
 <pre>
 Rows: 2
 Columns: 21
@@ -77,4 +69,3 @@ $ dem               <dbl> 152, 361
 $ timezone          <chr> "America/Los_Angeles", "America/Chicago"
 $ mdate             <date> 2017-03-09, 2017-03-09
 </pre>
-
