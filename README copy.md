@@ -1,3 +1,17 @@
+---
+output: github_document
+---
+
+<!-- README.md is generated from README.Rmd. Please edit that file -->
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>",
+  fig.path = "man/figures/README-",
+  out.width = "100%"
+)
+```
 
 # rreversegeocoder
 
@@ -11,7 +25,7 @@ The goal of rreversegeocoder is to, given latitude and longitude, find the neare
 You can install the development version of rreversegeocoder from [GitHub](https://github.com/jrosell/rreversegeocoder) with:
 
 ``` r
-remotes::install_github("jrosell/rreversegeocoder")
+pak::pak("jrosell/rreversegeocoder")
 ```
 
 ## Example
